@@ -16,6 +16,6 @@ A candlestick is generated using the Open, High, Low and Close of a security. Th
 
 But can a model learn to detect these numerical pattern throught the stock price data and understand which pattern lead to what kind of a movement?
 
-A lot of papers have used technical indicators, but I have not come across a paper where pure price action is used. 
+A lot of papers have used technical indicators, but I have not come across a paper where pure price action is used. If you know about  such a study, please let me know.
 
 Please let me know what you guys think about this.
