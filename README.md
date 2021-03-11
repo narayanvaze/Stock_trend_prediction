@@ -14,7 +14,7 @@ Candlestick patterns are a way of analysing the price action of a secirity. Ther
 
 A candlestick is generated using the Open, High, Low and Close of a security. This data we already have. So generating candlestick in a numerical way is a matter of deriving new features from existing data. 
 
-But can a model learn to detect these numerical pattern throught the stock price data and understand which pattern lead to what kind of a movement?
+But can a model learn to detect these numerical patterns throught the stock price data and understand which pattern led to what kind of a movement? Detecting these patterns throughout the data and understanding the corresponding movement is the human solution of predictring price direction using Price Action. Is it possible to implement this with a model?
 
 A lot of papers have used technical indicators, but I have not come across a paper where pure price action is used. If you know about  such a study, please let me know.
 
