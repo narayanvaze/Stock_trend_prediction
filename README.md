@@ -19,3 +19,8 @@ But can a model learn to detect these numerical patterns throught the stock pric
 A lot of papers have used technical indicators, but I have not come across a paper where pure price action is used. If you know about  such a study, please let me know.
 
 Please let me know what you guys think about this.
+
+
+# Preparation and Preprocessing
+
+Putting up the preparation and preprocessing code. I am getting an error which I don't understand. This error is occuring when I am trying to pass the dataframe to a pipeline. The error says "int is not subscriptable". I have also uploaded the training set. Please take a look at the data and try running the code. 
