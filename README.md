@@ -31,4 +31,6 @@ I tried out a few SVMs and a Random Forest model on the data. The models were se
 5) For every training testing cycle, performance measures were calculated.
 6) At the exhaustion of the validation set, i.e. after 5 training testing cycles, the averages of the performance measures were calculated.
 7) The model with the best average performance measures was selected for testing
-8) No feature selection was done. All the features were used.
+8) Testing was done on the 545 samplees which were sorted out initially and were never seen by the model.
+9) Normalization of the training, validation and test sets was done separately. 
+10) No feature selection was done. All the features were used.
