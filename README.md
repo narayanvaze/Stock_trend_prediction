@@ -21,6 +21,14 @@ A lot of papers have used technical indicators, but I have not come across a pap
 Please let me know what you guys think about this.
 
 
-# Preparation and Preprocessing
+# Preliminary Model Testing
 
-Putting up the preparation and preprocessing code. I am getting an error which I don't understand. This error is occuring when I am trying to pass the dataframe to a pipeline. The error says "int is not subscriptable". I have also uploaded the training set. Please take a look at the data and try running the code. 
+I tried out a few SVMs and a Random Forest model on the data. The models were selected for testing by a cross validation process of rolling window. 
+1) Initially 1635 out of the total 2725 samples were sorted out as training samples, 545 as validation samples and 545 as testing samples.
+2) The model was trained on 1635 samples and tested on 109 samples from validation set.
+3) then the tested 109 samples were added to the training set and the model was trained on the new training set i.e. 1635 + 109 and it was tested on the the samples following the last test samples i.e sample no. 109 to 218 of the validation set
+4) This process was continued untill the validation set was exhausted.
+5) For every training testing cycle, performance measures were calculated.
+6) At the exhaustion of the validation set, i.e. after 5 training testing cycles, the averages of the performance measures were calculated.
+7) The model with the best average performance measures was selected for testing
+8) No feature selection was done. All the features were used.
